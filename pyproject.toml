@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project-sqlalchemy"
+version = "0.1.0"
+description = ""
+authors = ["Gregorio Honorato <greghono@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.20"
+pymysql = "^1.1.0"
+cryptography = "^41.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

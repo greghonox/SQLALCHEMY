@@ -1,0 +1,1 @@
+#docker run -d --name pg-docker -e POSTGRES_PASSWORD=root -e POSTGRES_USER=root -e POSTGRES_DB=root -p 5432:5432 postgres:9.6.2
